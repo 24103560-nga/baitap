@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <g id="ball">
+      <circle r="38" fill="#c97b2b" stroke="#8a4f14" stroke-width="3"/>
+      <path d="M-30 -8 Q-15 -22 0 -8 T30 -8" stroke="#4a2511" stroke-width="7" fill="none" stroke-linecap="round"/>
+      <path d="M-28 10 Q-14 -4 0 10 T28 10" stroke="#fff3cd" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <circle cx="-14" cy="-24" r="3" fill="#7cb342"/><circle cx="16" cy="-22" r="3" fill="#7cb342"/><circle cx="4" cy="24" r="3" fill="#7cb342"/>
+      <path d="M-20 22 q4 -8 8 0 M12 26 q4 -8 8 0" stroke="#e8c48a" stroke-width="3" fill="none" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <rect width="400" height="300" fill="#fbe7c6"/>
+  <path d="M40 130 H360 L328 262 H72 Z" fill="#f5f0e6" stroke="#c9b99a" stroke-width="5" stroke-linejoin="round"/>
+  <use href="#ball" x="120" y="165"/>
+  <use href="#ball" x="200" y="155"/>
+  <use href="#ball" x="280" y="165"/>
+  <use href="#ball" x="160" y="215"/>
+  <use href="#ball" x="240" y="215"/>
+  <path d="M335 110 L380 70" stroke="#a9743f" stroke-width="6" stroke-linecap="round"/>
+</svg>

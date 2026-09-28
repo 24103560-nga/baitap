@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Japanese Food Gallery</h1>
+  </header>
+
+  <main>
+    <!-- This div is updated by JavaScript when the mouse is over an image -->
+    <div id="image" aria-live="polite">Hover over an image below to display here.</div>
+
+    <div class="gallery">
+      <img class="preview" src="images/sushi.svg" alt="Sushi - nigiri and maki rolls on a wooden board" tabindex="0"
+           onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      <img class="preview" src="images/ramen.svg" alt="Ramen - a hot bowl of noodles with egg and pork" tabindex="0"
+           onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      <img class="preview" src="images/tempura.svg" alt="Tempura - shrimp and vegetables fried in light batter" tabindex="0"
+           onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      <img class="preview" src="images/onigiri.svg" alt="Onigiri - triangular rice balls wrapped in seaweed" tabindex="0"
+           onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      <img class="preview" src="images/takoyaki.svg" alt="Takoyaki - octopus balls with sauce and mayonnaise" tabindex="0"
+           onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      <img class="preview" src="images/bento.svg" alt="Bento - a lunch box with rice, fish, egg and vegetables" tabindex="0"
+           onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      <img class="preview" src="images/matcha.svg" alt="Matcha - frothy green tea in a bowl" tabindex="0"
+           onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      <img class="preview" src="images/dango.svg" alt="Dango - sweet rice dumplings on skewers" tabindex="0"
+           onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

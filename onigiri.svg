@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <g id="oni">
+      <path d="M80 200 L200 200 L140 84 Z" fill="#cdd6c6" stroke="#cdd6c6" stroke-width="30" stroke-linejoin="round"/>
+      <path d="M80 200 L200 200 L140 84 Z" fill="#ffffff" stroke="#ffffff" stroke-width="24" stroke-linejoin="round"/>
+      <rect x="105" y="168" width="70" height="46" rx="6" fill="#16332a"/>
+      <circle cx="140" cy="140" r="9" fill="#c2185b"/>
+    </g>
+  </defs>
+  <rect width="400" height="300" fill="#e5efe0"/>
+  <rect x="30" y="215" width="340" height="60" rx="8" fill="#c9b58a"/>
+  <path d="M30 235 H370 M30 255 H370" stroke="#a89468" stroke-width="3"/>
+  <use href="#oni" x="0" y="0"/>
+  <use href="#oni" x="140" y="10"/>
+</svg>
